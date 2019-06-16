@@ -5,36 +5,16 @@ import store from './store'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 import 'vue-loaders/dist/vue-loaders.css'
-import * as VueLoaders from 'vue-loaders'
 import moment from 'moment' // Loads in moment js for date manipulation
 import SuiVue from 'semantic-ui-vue'
-// css loader component
-Vue.use(VueLoaders)
 // Normalize.css
 require('normalize.css')
 /* To help me with css - https://semantic-ui-vue.github.io/ */
 Vue.use(SuiVue)
-
-// Use vue-preload to preload pages before clicking on a link
-// TODO: Implement this properly.
-/*
-import VuePreload from 'vue-preload'
-Vue.use(VuePreload, {
-  // show the native progress bar
-  // put <preloading></preloading> in your root component
-  showProgress: true,
-  // excutes when click
-  onStart () {},
-  // excutes when use .end() and after .setState()
-  onEnd () {},
-  // excutes when prefetching the state
-  onPreLoading () {}
-})
-*/
+require('semantic-ui-css/semantic.css')
 
 // Ionicons
 require('vue-ionicons/ionicons.css')
-require('semantic-ui-css/semantic.css')
 
 Vue.config.productionTip = false
 

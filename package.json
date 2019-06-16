@@ -14,27 +14,27 @@
     "normalize.css": "^8.0.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-vue": "^0.8.1",
-    "vanilla-tilt": "^1.6.1",
-    "vue": "^2.5.22",
+    "vanilla-tilt": "^1.7.0",
+    "vue": "^2.6.10",
     "vue-ionicons": "^2.2.1",
     "vue-loaders": "^2.0.0",
     "vue-paypal-checkout": "^3.2.0",
     "vue-preload": "^0.1.11",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.1.0"
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-plugin-eslint": "^3.3.0",
-    "@vue/cli-service": "^3.3.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.4",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.12.0",
-    "eslint-plugin-vue": "^5.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.5.22"
+    "vue-template-compiler": "^2.6.10"
   }
 }

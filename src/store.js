@@ -10,15 +10,6 @@ export default new Vuex.Store({
   getters: {
     appBuild: (state) => {
       return state.env.NODE_ENV === 'development' ? 'dev' : state.env.NODE_ENV === 'production' ? 'build' : 'weird'
-    },
-    appVersion: (state) => {
-      return state.env.VERSION
-    },
-    quote: () => {
-      return {
-        quote: 'CREDE UR THE BEST HOMIE',
-        author: 'YoUngDRaCoGoD'
-      }
     }
   },
   mutations: {
